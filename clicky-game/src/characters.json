@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Princess Elana",
+        "image": "http://static.tvtropes.org/pmwiki/pub/images/elena_avalor_debut_disney_parks.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Naomi",
+        "image": "https://i.pinimg.com/originals/80/0e/d6/800ed64be520ce4436635a427b03b289.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Shuriki",
+        "image": "https://i.pinimg.com/564x/62/db/36/62db36acbd41189a57f96748bd5afa72.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Mateo",
+        "image": "http://www.behindthevoiceactors.com/_img/chars/mateo-elena-of-avalor-4.31.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Isabel Elanas Little Sister",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD6BhFq5p6G-A6S9EhKJFimoIL_oCZJdAwZ9Uws1SpETli4WmR"
+    },
+    {
+        "id": 6,
+        "name": "Migs Jaquin",
+        "image": "https://vignette.wikia.nocookie.net/elenaofavalor/images/c/cf/Migs.png/revision/latest?cb=20161110195515"
+    },
+    {
+        "id": 7,
+        "name": "Skylar Jaquin",
+        "image": "https://vignette.wikia.nocookie.net/doblaje/images/f/fd/Skylar-elena-of-avalor-5_31.jpg/revision/latest?cb=20171109235517&path-prefix=es"
+    },
+    {
+        "id": 8,
+        "name": "Luisa Elana's Grandmother",
+        "image": "https://vignette.wikia.nocookie.net/disneyprincesas/images/9/90/Luisa_2.jpg/revision/latest?cb=20160630012458&path-prefix=pt-br"
+    },
+    {
+        "id": 9,
+        "name": "Gabe",
+        "image": "https://i.pinimg.com/564x/07/be/f0/07bef03256989008b07396ebb8a8990c--disney-jr-disney-stuff.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Luna Jaquin",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61FyC2rQ7KL._SY355_.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Francisco Elanas Grandfather",
+        "image": "https://vignette.wikia.nocookie.net/elenaofavalor/images/8/89/Francisco_2.jpg/revision/latest/scale-to-width-down/350?cb=20160824131238"
+    },
+    {
+        "id": 12,
+        "name": "Chancellor Esteban Elanas Cousin",
+        "image": "https://i.pinimg.com/236x/ff/3c/24/ff3c243e96ae12805998919ec92e7afe.jpg"
+    }
+]
