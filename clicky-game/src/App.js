@@ -1,39 +1,33 @@
 import React from "react";
 import CharacterCard from "./components/CharacterCard";
 import Wrapper from "./components/Wrapper";
-import characters from "./characters.json";
+import animals from "./animals.json";
+import Navbar from "./components/Navbar";
 import "./App.css";
 
 class App extends React.Component {
   state = {
-    characters
+    message: "Click on an animal to begin!",
+    highScore: 0,
+    currentScore: 0,
+    animals: animals,
+    unselectedAnimals: animals
   };
 
-  // removedFriend = id => {
-  //   const characters = this.state.characters.filter(character => character.id !== id);
-  //   this.setState({ characters});
-  // }
+  // src Laurens Holst via https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+  shuffleArray = array => {
+    for (let i = array.length - 1; i > 0; i--) {
+      let j = Math.floor(Math.random() * ( i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    };
+  }; 
+
 
   render() {
     return (
       <Wrapper>
         <div>
-          <nav class="navbar">
-            <ul class="nav">
-              <li class="nav-item col-sm-4">
-                <a href="/">Clicky Game</a>
-              </li>
-              <li class="nav-item col-sm-4">
-                Click an image to begin!
-              </li>
-              <li class="nav-item col-sm-4">
-                "Score: "
-                "0"
-                " | Top Score: "
-                "0"
-              </li>
-            </ul>
-          </nav>
+        {/* <Navbar/> */}
         
         {this.state.characters.map(character => (
           <CharacterCard 

@@ -4,7 +4,9 @@ import "./CharacterCard.css";
 const CharacterCard = props => (
   <div className="card">
     <div className="img-container">
-      <img alt={props.name} src={props.image} />
+        <a onClick={() => props.selectAnimal(props.character)} className = { props.currentScore === 0 } >
+            <img alt={props.name} src={props.image} />
+        </a>
     </div>
   </div>
 );
