@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Elephant",
-        "image": "/assets/images/elephant.jpg"
+        "image": "public/assets/images/elephant.jpg"
     },
     {
         "id": 2,
