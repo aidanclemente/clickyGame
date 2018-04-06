@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Elephant",
-        "image": "public/assets/images/elephant.jpg"
+        "image": "/assets/images/elephant.jpg"
     },
     {
         "id": 2,
@@ -72,6 +72,6 @@
     {
         "id": 15,
         "name": "Tapir",
-        "image": "../../clicky-game/public/assets/images/tapir.jpg"
+        "image": "/assets/images/tapir.jpg"
     }
 ]

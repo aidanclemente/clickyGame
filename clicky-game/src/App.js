@@ -4,6 +4,7 @@ import Wrapper from "./components/Wrapper";
 import animals from "./animals.json";
 import Navbar from "./components/Navbar";
 import Title from "./components/Title";
+import Footer from "./components/Footer";
 import "./App.css";
 
 class App extends React.Component {
@@ -70,6 +71,7 @@ class App extends React.Component {
             />
           ))}
         </div>
+        <Footer/>
       </Wrapper>
     );
   }
