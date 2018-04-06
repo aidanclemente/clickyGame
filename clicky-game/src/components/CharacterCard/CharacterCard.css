@@ -12,19 +12,22 @@
   .img-container {
     display: inline-block;
     overflow: hidden;
+    background-color: white;
+    margin-right: 4px;
+    margin-left: 4px;
   }
 
   .card > .img-container > img {
     width: 300px;
-    display: inline-block;
     height: 300px;
+    display: inline-block;
   }
   
   .card > .content {
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 15px;
-  }
+    }
   
   .newGame {
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;

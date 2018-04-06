@@ -1,5 +1,6 @@
 .jumbotron {
     margin-top: 70px;
+    margin-bottom: 0px;
     text-align: center;
     font-family: 'Shrikhand', cursive;
     background-image: url('/assets/images/background.jpg');

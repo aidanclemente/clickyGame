@@ -8,7 +8,7 @@ import "./App.css";
 
 class App extends React.Component {
   state = {
-    message: "Click any cutie-pie to begin!",
+    message: "Click Any Cutie-Pie to Begin!",
     highScore: 0,
     currentScore: 0,
     animals: animals,
@@ -29,7 +29,7 @@ class App extends React.Component {
     if (findAnimal === undefined) {
       // Already clicked on the animal
       this.setState({
-        message: "Must have been too cute! They've already been clicked!!",
+        message: "OOPS! Click Any Picture to Try Again.",
         highScore: (this.state.currentScore > this.state.highScore) ? this.state.currentScore : this.state.highScore,
         currentScore: 0,
         animals: animals,
@@ -40,7 +40,7 @@ class App extends React.Component {
       const newAnimal = this.state.unselectedAnimals.filter(item => item.name !== name);
 
       this.setState({
-        message: "What a cuttie-pie!",
+        message: "What a Cuttie-Pie!",
         currentScore: this.state.currentScore + 1,
         animals: animals,
         unselectedAnimals: newAnimal
