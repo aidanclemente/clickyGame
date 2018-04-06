@@ -72,6 +72,6 @@
     {
         "id": 15,
         "name": "Tapir",
-        "image": "../public/assets/images/tapir.jpg"
+        "image": "../../clicky-game/public/assets/images/tapir.jpg"
     }
 ]
