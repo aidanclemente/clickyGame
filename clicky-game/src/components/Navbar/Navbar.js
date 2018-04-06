@@ -3,7 +3,6 @@ import "./Navbar.css";
 
 const Navbar = props => (
     <nav className="navbar">
-        <div className="container">
             <div className="col-sm">
                 <a href="/">Baby Animals Clicky Game</a>
             </div>
@@ -14,7 +13,6 @@ const Navbar = props => (
                 Score: <span className="score">{props.currentScore} </span> 
                 | High Score: <span className="highScore">{props.highScore}</span>
             </div>
-        </div>
     </nav>
 );
 

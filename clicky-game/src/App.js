@@ -3,8 +3,8 @@ import CharacterCard from "./components/CharacterCard";
 import Wrapper from "./components/Wrapper";
 import animals from "./animals.json";
 import Navbar from "./components/Navbar";
+import Title from "./components/Title";
 import "./App.css";
-import Container from "./components/container";
 
 class App extends React.Component {
   state = {
@@ -57,8 +57,7 @@ class App extends React.Component {
           currentScore = {this.state.currentScore}
           highScore = {this.state.highScore}
         />
-        {/* make a title/header here that's fancy */}
-        {/* <Container> */}
+        <Title/>
         <div className="containingDiv">
           {this.state.animals.map(character => (
             <CharacterCard 
@@ -71,7 +70,6 @@ class App extends React.Component {
             />
           ))}
         </div>
-        {/* </Container> */}
       </Wrapper>
     );
   }

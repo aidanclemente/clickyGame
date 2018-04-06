@@ -7,12 +7,17 @@
 }
 
 .navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
     background-color: rgb(2, 160, 160);
     color: white;
     min-height: 70px;
     text-align: center;
     font-family: 'Shrikhand', cursive;
     font-weight: bold;
+    font-size: 25px;
     width: 100vw;
 }
 
@@ -23,7 +28,3 @@ a {
 a:hover {
     color: blue;
 }
-/* .container {
-    margin-right: 0px;
-    margin-left: 0px;
-} */
