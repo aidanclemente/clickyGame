@@ -2,22 +2,20 @@ import React from "react";
 import "./Navbar.css";
 
 const Navbar = props => (
-    <nav class="navbar">
-        <ul class="nav">
-            <li class="nav-item col-sm-4">
-                <a href="/">Clicky Game</a>
-            </li>
-            <li class="nav-item col-sm-4">
-                Click an image to begin!
-            </li>
-            <li class="nav-item col-sm-4">
-                "Score: "
-                "0"
-                " | Top Score: "
-                "0"
-            </li>
-        </ul>
+    <nav className="navbar">
+        <div className="container">
+            <div className="col-sm">
+                <a href="/">Baby Animals Clicky Game</a>
+            </div>
+            <div className="col-sm">
+                {props.message}
+            </div>
+            <div className="col-sm">
+                Score: <span className="score">{props.currentScore} </span> 
+                | High Score: <span className="highScore">{props.highScore}</span>
+            </div>
+        </div>
     </nav>
 );
 
-export default NavBar;
+export default Navbar;

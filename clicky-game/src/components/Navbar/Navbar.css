@@ -1,0 +1,29 @@
+.score {
+    color: rgb(190, 94, 190);
+}
+
+.highScore {
+    color: rgb(224, 26, 224);
+}
+
+.navbar {
+    background-color: rgb(2, 160, 160);
+    color: white;
+    min-height: 70px;
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+    font-weight: bold;
+    width: 100vw;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
+/* .container {
+    margin-right: 0px;
+    margin-left: 0px;
+} */

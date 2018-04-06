@@ -4,10 +4,11 @@ import Wrapper from "./components/Wrapper";
 import animals from "./animals.json";
 import Navbar from "./components/Navbar";
 import "./App.css";
+import Container from "./components/container";
 
 class App extends React.Component {
   state = {
-    message: "Click on an animal to begin!",
+    message: "Click any cutie-pie to begin!",
     highScore: 0,
     currentScore: 0,
     animals: animals,
@@ -22,21 +23,55 @@ class App extends React.Component {
     };
   }; 
 
+  selectAnimal = name => {
+    const findAnimal = this.state.unselectedAnimals.find(item => item.name === name);
+
+    if (findAnimal === undefined) {
+      // Already clicked on the animal
+      this.setState({
+        message: "Must have been too cute! They've already been clicked!!",
+        highScore: (this.state.currentScore > this.state.highScore) ? this.state.currentScore : this.state.highScore,
+        currentScore: 0,
+        animals: animals,
+        unselectedAnimals: animals
+      });
+    } else {
+      // Success, haven't clicked before
+      const newAnimal = this.state.unselectedAnimals.filter(item => item.name !== name);
+
+      this.setState({
+        message: "What a cuttie-pie!",
+        currentScore: this.state.currentScore + 1,
+        animals: animals,
+        unselectedAnimals: newAnimal
+      });
+    }
+    this.shuffleArray(animals);
+  }
 
   render() {
     return (
       <Wrapper>
-        <div>
-        {/* <Navbar/> */}
-        
-        {this.state.characters.map(character => (
-          <CharacterCard 
-            // removeFriend={this.removedFriend}
-            id={character.id}
-            key={character.id}
-            image={character.image}
-          />
-        ))}</div>
+        <Navbar
+          message = {this.state.message}
+          currentScore = {this.state.currentScore}
+          highScore = {this.state.highScore}
+        />
+        {/* make a title/header here that's fancy */}
+        {/* <Container> */}
+        <div className="containingDiv">
+          {this.state.animals.map(character => (
+            <CharacterCard 
+              name={character.name} 
+              id={character.id}
+              key={character.id}
+              image={character.image}
+              selectAnimal={this.selectAnimal}
+              currentScore={this.state.currentScore}
+            />
+          ))}
+        </div>
+        {/* </Container> */}
       </Wrapper>
     );
   }

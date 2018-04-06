@@ -58,5 +58,20 @@
         "id": 12,
         "name": "Polar Bear",
         "image": "/assets/images/bear.jpg_c200"
+    },
+    {
+        "id": 13,
+        "name": "Panda Bear",
+        "image": "/assets/images/panda.png"
+    },
+    {
+        "id": 14,
+        "name": "Squirrel",
+        "image": "/assets/images/squirrel.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Tapir",
+        "image": "/assets/images/tapir.jpg"
     }
 ]
