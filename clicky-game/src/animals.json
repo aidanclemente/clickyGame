@@ -2,76 +2,76 @@
     {
         "id": 1,
         "name": "Elephant",
-        "image": "/assets/images/elephant.jpg"
+        "image": "./assets/images/elephant.jpg"
     },
     {
         "id": 2,
         "name": "Bunny",
-        "image": "/assets/images/bunny.jpg"
+        "image": "./assets/images/bunny.jpg"
     },
     {
         "id": 3,
         "name": "Cheetah",
-        "image": "/assets/images/cheetah.jpg"
+        "image": "./assets/images/cheetah.jpg"
     },
     {
         "id": 4,
         "name": "Donkey",
-        "image": "/assets/images/donkey.jpg"
+        "image": "./assets/images/donkey.jpg"
     },
     {
         "id": 5,
         "name": "Giraffe",
-        "image": "/assets/images/giraffe.jpg"
+        "image": "./assets/images/giraffe.jpg"
     },
     {
         "id": 6,
         "name": "Hedgehog",
-        "image": "https://data.whicdn.com/images/38805478/superthumb.jpg"
+        "image": "./assets/images/hedgehog.jpg"
     },
     {
         "id": 7,
         "name": "Hippo",
-        "image": "/assets/images/hippo.jpg"
+        "image": "./assets/images/hippo.jpg"
     },
     {
         "id": 8,
         "name": "Owl",
-        "image": "/assets/images/owl.jpg"
+        "image": "./assets/images/owl.jpg"
     },
     {
         "id": 9,
         "name": "Pig",
-        "image": "https://kieswetterklaskamer.files.wordpress.com/2014/05/20140531-101905.jpg?w=560"
+        "image": "./assets/images/pig.jpg"
     },
     {
         "id": 10,
         "name": "Seal",
-        "image": "/assets/images/seal.jpg"
+        "image": "./assets/images/seal.jpg"
     },
     {
         "id": 11,
         "name": "Skunk",
-        "image": "/assets/images/skunk.jpg"
+        "image": "./assets/images/skunk.jpg"
     },
     {
         "id": 12,
         "name": "Polar Bear",
-        "image": "/assets/images/bear.jpg_c200"
+        "image": "./assets/images/bear.jpg_c200"
     },
     {
         "id": 13,
         "name": "Panda Bear",
-        "image": "/assets/images/panda.png"
+        "image": "./assets/images/panda.png"
     },
     {
         "id": 14,
         "name": "Squirrel",
-        "image": "/assets/images/squirrel.jpg"
+        "image": "./assets/images/squirrel.jpg"
     },
     {
         "id": 15,
         "name": "Tapir",
-        "image": "/assets/images/tapir.jpg"
+        "image": "./assets/images/tapir.jpg"
     }
 ]
