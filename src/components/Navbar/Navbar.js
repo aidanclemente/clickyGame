@@ -4,7 +4,7 @@ import "./Navbar.css";
 const Navbar = props => (
     <nav className="navbar">
         <div className="col-sm">
-            <a href="/">Baby Animals Clicky Game</a>
+            <a href="https://aidanclemente.github.io/clickyGame/">Baby Animals Clicky Game</a>
         </div>
         <div className={ props.currentScore === 0 ? "red" : "green"}>
             {props.message}
