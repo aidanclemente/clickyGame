@@ -7,12 +7,12 @@
     {
         "id": 2,
         "name": "Bunny",
-        "image": "./assets/images/bunny.jpg"
+        "image": "./build/assets/images/bunny.jpg"
     },
     {
         "id": 3,
         "name": "Cheetah",
-        "image": "./assets/images/cheetah.jpg"
+        "image": "/build/assets/images/cheetah.jpg"
     },
     {
         "id": 4,
