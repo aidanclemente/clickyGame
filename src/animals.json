@@ -2,17 +2,17 @@
     {
         "id": 1,
         "name": "Elephant",
-        "image": "../build/assets/images/elephant.jpg"
+        "image": "./assets/images/elephant.jpg"
     },
     {
         "id": 2,
         "name": "Bunny",
-        "image": "./build/assets/images/bunny.jpg"
+        "image": "./assets/images/bunny.jpg"
     },
     {
         "id": 3,
         "name": "Cheetah",
-        "image": "/build/assets/images/cheetah.jpg"
+        "image": "./assets/images/cheetah.jpg"
     },
     {
         "id": 4,
