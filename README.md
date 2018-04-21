@@ -14,7 +14,7 @@ This is a memory game that utilizes React. The app's UI is broken up into compon
 * When the user clicks on any image a second time, the current game is concluded, and the number of Correct Guesses is reset to 0
 * The application tracks the user's highest score, and updates when the user achieves a new High Score
 
-Visit [Animal Clicky Game](https://aidanclemente.github.io/clickyGame/) to play the game and visit these cuties!
+Visit Animal Clicky Game here: [https://aidanclemente.github.io/clickyGame/](https://aidanclemente.github.io/clickyGame/) to play the game and visit these cuties!
 
 ## Technologies Used:
 * HTML5
